@@ -298,7 +298,7 @@ struct imgsc //claas for the seam-carve image
       for(int y = 0; y < height; y++)
       {
           for(int x = 0; x < width; x++)
-            outputfile << image[x][y] << " " << std::endl;
+            outputfile << image[x][y] << " ";
       }
 
       outputfile.close();
